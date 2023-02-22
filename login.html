@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
     <link rel="stylesheet" href="/styles/style.css" />
     <title>Login</title>
   </head>
@@ -35,6 +39,7 @@
         position: absolute;
         opacity: 0.75;
       "
+      class="login_01"
     />
     <main style="padding-top: 12rem; position: relative">
       <div class="row">
@@ -56,7 +61,9 @@
         </div>
       </div>
       <br />
-      <h4 style="font-size: 30px">Or... you have an account. Login here:</h4>
+      <h4 class="text" style="font-size: 30px">
+        Or... you have an account. Login here:
+      </h4>
       <form action="/auth/login" method="POST" style="padding-top: 1rem">
         <div class="form-group">
           <label for="exampleInputEmail1" style="font-size: 20px"
